@@ -1,0 +1,79 @@
+{
+  "seed": 20260929,
+  "source": "s3://swe-bench-submissions (SWE-bench/experiments leaderboard artifacts)",
+  "runs": {
+    "claude-3.5-sonnet": "verified/20240620_sweagent_claude3.5sonnet/trajs/",
+    "claude-4-sonnet": "verified/20250522_sweagent_claude-4-sonnet-20250514/trajs/",
+    "swe-agent-lm-32b": "verified/20250511_sweagent_lm_32b/trajs/"
+  },
+  "instances": {
+    "astropy__astropy-13453": {
+      "repo": "astropy/astropy",
+      "base_commit": "19cc80471739bcb67b7e8099246b391c355023ee"
+    },
+    "django__django-11138": {
+      "repo": "django/django",
+      "base_commit": "c84b91b7603e488f7171fdff8f08368ef3d6b856"
+    },
+    "django__django-12209": {
+      "repo": "django/django",
+      "base_commit": "5a68f024987e6d16c2626a31bf653a2edddea579"
+    },
+    "django__django-13569": {
+      "repo": "django/django",
+      "base_commit": "257f8495d6c93e30ab0f52af4c488d7344bcf112"
+    },
+    "django__django-14311": {
+      "repo": "django/django",
+      "base_commit": "5a8e8f80bb82a867eab7e4d9d099f21d0a976d22"
+    },
+    "django__django-14539": {
+      "repo": "django/django",
+      "base_commit": "6a5ef557f80a8eb6a758ebe99c8bb477ca47459e"
+    },
+    "django__django-15315": {
+      "repo": "django/django",
+      "base_commit": "652c68ffeebd510a6f59e1b56b3e007d07683ad8"
+    },
+    "django__django-15525": {
+      "repo": "django/django",
+      "base_commit": "fbacaa58ffc5a62456ee68b90efa13957f761ce4"
+    },
+    "django__django-16263": {
+      "repo": "django/django",
+      "base_commit": "321ecb40f4da842926e1bc07e11df4aabe53ca4b"
+    },
+    "django__django-16642": {
+      "repo": "django/django",
+      "base_commit": "fbe850106b2e4b85f838219cb9e1df95fba6c164"
+    },
+    "django__django-16938": {
+      "repo": "django/django",
+      "base_commit": "1136aa5005f0ae70fea12796b7e37d6f027b9263"
+    },
+    "matplotlib__matplotlib-21568": {
+      "repo": "matplotlib/matplotlib",
+      "base_commit": "f0632c0fc7339f68e992ed63ae4cfac76cd41aad"
+    },
+    "matplotlib__matplotlib-23412": {
+      "repo": "matplotlib/matplotlib",
+      "base_commit": "f06c2c3abdaf4b90285ce5ca7fedbb8ace715911"
+    },
+    "pydata__xarray-4629": {
+      "repo": "pydata/xarray",
+      "base_commit": "a41edc7bf5302f2ea327943c0c48c532b12009bc"
+    },
+    "pytest-dev__pytest-7205": {
+      "repo": "pytest-dev/pytest",
+      "base_commit": "5e7f1ab4bf58e473e5d7f878eb2b499d7deabd29"
+    },
+    "scikit-learn__scikit-learn-25931": {
+      "repo": "scikit-learn/scikit-learn",
+      "base_commit": "e3d1f9ac39e4bf0f31430e779acc50fb05fe1b64"
+    },
+    "sphinx-doc__sphinx-9461": {
+      "repo": "sphinx-doc/sphinx",
+      "base_commit": "939c7bb7ff7c53a4d27df067cea637540f0e1dad"
+    }
+  }
+}

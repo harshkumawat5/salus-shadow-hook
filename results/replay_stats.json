@@ -1,0 +1,31 @@
+{
+  "trajectories": 51,
+  "uncovered": {
+    "package_installs": 8,
+    "trajectories": 3
+  },
+  "by_run": {
+    "claude-3.5-sonnet": {
+      "tool_calls": 708,
+      "hooked_calls": 485,
+      "trajectories": 17
+    },
+    "claude-4-sonnet": {
+      "tool_calls": 1108,
+      "hooked_calls": 838,
+      "trajectories": 17
+    },
+    "swe-agent-lm-32b": {
+      "tool_calls": 770,
+      "hooked_calls": 306,
+      "trajectories": 17
+    }
+  },
+  "hook_records": 1629,
+  "hook_errors": 0,
+  "policy_latency_ms": {
+    "p50": 3.63,
+    "p99": 7.57,
+    "max": 25.56
+  }
+}
